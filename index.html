@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="description" content="Welcome to a world without problems where you can just Chill and Relax">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chill Paradise</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/home.css">
+</head>
+<body>
+    <section class="first">
+        <div class="container">
+            <header>
+                <a href="#" class="logo">Chill</a>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Quotes</a></li>
+                    <li><a href="#">Songs</a></li>
+                    <li><a href="#">Stories</a></li>
+                </ul>
+            </header>
+            <div class="content">
+                <h2>Anxiety can't win!</h2>
+                <p>I just want to send love, light, and positivity to everyone who is dealing with Anxiety and any other mental health issues. We will continue to get through this. Every day can be a tough battle, but you are in control of the fight. I know mental health issues can make you feel alone, but remember you are not. We are in this together. I wish you nothing but happiness, strength, and comfort!</p>
+                <a href="#">Read More</a>
+            </div>
+            <div class="imgBx">
+                <img src="./img/character.png" alt="">
+            </div>
+            <ul class="sci">
+                <li><a href=""><img src="./img/facebook.png"></a></li>
+                <li><a href=""><img src="./img/instagram.png"></a></li>
+                <li><a href=""><img src="./img/twitter.png"></a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="music">
+      <div class="back">
+        <h1>Chill Vibes</h1>
+
+    <div class="music-container" id="music-container">
+      <div class="music-info">
+        <h4 id="title"></h4>
+        <div class="progress-container" id="progress-container">
+          <div class="progress" id="progress"></div>
+        </div>
+      </div>
+
+      <audio src="audio/ukulele.mp3" id="audio"></audio>
+
+      <div class="img-container">
+        <img src="imag/ukulele.jpg" alt="music-cover" id="cover" />
+      </div>
+      <div class="navigation">
+        <button id="prev" class="action-btn">
+          <i class="fas fa-backward"></i>
+        </button>
+        <button id="play" class="action-btn action-btn-big">
+          <i class="fas fa-play"></i>
+        </button>
+        <button id="next" class="action-btn">
+          <i class="fas fa-forward"></i>
+        </button>
+      </div>
+    </div>
+    <div class="quote-container">
+      <div class="card">
+        <div class="card-content">
+          <h2>01</h2>
+          <h3>Card One</h3>
+          <p>Lorem ipsum dolor, 
+          sit amet consectetur adipisicing elit.Perferendis, 
+          nesciunt alias debitis omnis impedit ipsa perspiciatis
+          recusandae autem, excepturi aliquam aut.
+           Incidunt sequi sapiente,esse assumenda 
+           soluta repellat ipsa accusamus?</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2>02</h2>
+          <h3>Card Two</h3>
+          <p>Lorem ipsum dolor, 
+          sit amet consectetur adipisicing elit.Perferendis, 
+          nesciunt alias debitis omnis impedit ipsa perspiciatis
+          recusandae autem, excepturi aliquam aut.
+           Incidunt sequi sapiente,esse assumenda 
+           soluta repellat ipsa accusamus?</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-content">
+          <h2>03</h2>
+          <h3>Card Three</h3>
+          <p>Lorem ipsum dolor, 
+          sit amet consectetur adipisicing elit.Perferendis, 
+          nesciunt alias debitis omnis impedit ipsa perspiciatis
+          recusandae autem, excepturi aliquam aut.
+           Incidunt sequi sapiente,esse assumenda 
+           soluta repellat ipsa accusamus?</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+    </section>
+    <section class="tools">
+      <div class="container">
+     <div class="tools-container">
+       <form action="#" name="forms">
+         <input type="text" name="answer">
+         <div class="buttons">
+           <input type="button" value="AC" onclick="forms.answer.value = ''">
+           <input type="button" value="DEL" onclick="forms.answer.value = forms.answer.value.substr(0 , forms.answer.value.length -1)">
+           <input type="button" value="%" onclick="forms.answer.value += '%'">
+           <input type="button" value="/" onclick="forms.answer.value += '/'">
+         </div>
+         <div class="buttons">
+           <input type="button" value="7" onclick="forms.answer.value += '7'">
+           <input type="button" value="8" onclick="forms.answer.value += '8'">
+           <input type="button" value="9" onclick="forms.answer.value += '9'">
+           <input type="button" value="*" onclick="forms.answer.value += '*'">
+         </div>
+         <div class="buttons">
+           <input type="button" value="4" onclick="forms.answer.value += '4'">
+           <input type="button" value="5" onclick="forms.answer.value += '5'">
+           <input type="button" value="6" onclick="forms.answer.value += '6'">
+           <input type="button" value="-" onclick="forms.answer.value += '-'">
+         </div>
+         <div class="buttons">
+           <input type="button" value="1" onclick="forms.answer.value += '1'">
+           <input type="button" value="2" onclick="forms.answer.value += '2'">
+           <input type="button" value="3" onclick="forms.answer.value += '3'">
+           <input type="button" value="+" onclick="forms.answer.value += '+'">
+         </div>
+         <div class="buttons">
+           <input type="button" value="0"  onclick="forms.answer.value += '0'">
+           <input type="button" value="00" onclick="forms.answer.value += '00'">
+           <input type="button" value="." onclick="forms.answer.value += '.'">
+           <input type="button" value="=" onclick="forms.answer.value = eval(forms.answer.value)">
+         </div>
+       </form>
+     </div>
+     <div class="content">
+       <div class="clock">
+        <h2 id="hour">00</h2>
+        <h2 id="dot">:</h2>
+        <h2 id="minutes">00</h2>
+        <h2 id="dot">:</h2>
+        <h2 id="seconds">00</h2>
+        <p id="ampm">AM</p></div>
+      </div>
+  </div>
+    </div>
+    </section>
+    <script src="./script/clock.js"></script>
+    <script src="./script/vanilla-tilt.js"></script>
+    <script src="./script/card.js"></script>
+    <script src="./script/musicapp.js"></script>
+</body>
+</html>
